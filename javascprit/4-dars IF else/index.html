@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    var person = "Abdulla"; // data type string;
+    var age = 34; //data type number;
+    var isMArried = true; // data type bollen;
+    var x = "8",
+        y = 2;
+    var z = x + y;
+    console.log(z);
+    // BMI = body mass index
+    //BMI = weight / (height*height)
+    //bmi = <14.99 - underweight;  14.99< bmi >24.99-normal; bmi>25-overweight;
+    var markWeight = 50;
+    var markheight =  1.8;
+    var markbmi = markWeight / (markheight * markheight);
+    console.log(markbmi);
+       
+    var bobweight = 65,
+        bobheight = 1.65,
+        bobbmi = bobweight / (bobheight * bobheight);
+    console.log(bobbmi)
+       
+       var studentAge = 16;
+       var votingAge  = 18;
+       
+      if ( studentAge > votingAge ){
+        //if true 
+          console.log("You can voite ")
+    }
+       else{
+           //if false
+           console.log( "Come back later")
+       };
+       
+       var studentScore = 99;
+       
+       if ( studentScore >= 90){
+           console.log( "You got A");
+       }
+       else if ( studentScore < 90 && studentScore >= 80){
+           console.log( "you got B");
+       }
+        else if ( studentScore < 80 && studentScore >= 70){
+           console.log( "you got C");
+       }
+       else if ( studentScore < 70 && studentScore >= 60){
+           console.log( "you got D");
+       }
+       
+       else{
+           console.log( "You got f loser")
+       };
+       // BMI
+       if ( markbmi < 14.9 ){
+           console.log("you are underweight")
+       }
+       else if ( markbmi > 15 && markbmi < 24.99 ){
+           console.log("you are normal")
+       }
+      if ( markbmi > 24.99 ){
+          console.log( "You are overweight" )
+      }
+           
+       
+ 
+          
+   </script>
+    
+     
+       
+</body>
+</html>
