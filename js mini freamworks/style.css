@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.typed-js{
+    height: 70vh;
+    background-image: url(https://wallpaperaccess.com/full/1567674.jpg);
+    background-size: cover;
+}
+.element{
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
